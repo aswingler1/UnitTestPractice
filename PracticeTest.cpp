@@ -66,5 +66,5 @@ TEST(PracticeTest, is_sorted_decending_3)
 
     Practice obj;
     bool actual = obj.sortDescending(first, second, third);
-    ASSERT_False(actual);
+    ASSERT_FALSE(actual);
 }
