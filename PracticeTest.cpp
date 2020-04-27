@@ -21,6 +21,13 @@ TEST(PracticeTest, is_simple_palindrome)
     ASSERT_TRUE(actual);
 }
 
+TEST(PracticeTest, is_simple_palindrome_2)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("racecar");
+    ASSERT_TRUE(actual);
+}
+
 
 TEST(PracticeTest, is_not_a_palindrome)
 {
@@ -45,6 +52,17 @@ TEST(PracticeTest, is_sorted_decending_2)
     int first = 6;
     int second = 2;
     int third = 7;
+
+    Practice obj;
+    bool actual = obj.sortDescending(first, second, third);
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_sorted_decending_3)
+{
+    int first = 5;
+    int second = 5;
+    int third = 4;
 
     Practice obj;
     bool actual = obj.sortDescending(first, second, third);
