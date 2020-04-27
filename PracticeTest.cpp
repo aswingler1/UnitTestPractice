@@ -40,7 +40,7 @@ TEST(PracticeTest, is_sorted_decending)
     ASSERT_TRUE(actual);
 }
 
-TEST(PracticeTest, is_sorted_decending)
+TEST(PracticeTest, is_sorted_decending_2)
 {
     int first = 6;
     int second = 2;
