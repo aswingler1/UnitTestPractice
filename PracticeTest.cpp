@@ -68,5 +68,3 @@ TEST(PracticeTest, is_sorted_decending_3)
     bool actual = obj.sortDescending(first, second, third);
     ASSERT_FALSE(actual);
 }
-
-
